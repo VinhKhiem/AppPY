@@ -14,4 +14,5 @@ def index():
 
 
 if __name__ == '__main__':
+    from saleapp import admin
     app.run(debug=True)
